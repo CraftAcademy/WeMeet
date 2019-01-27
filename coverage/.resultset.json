@@ -1,6 +1,20 @@
 {
   "Cucumber Features": {
     "coverage": {
+      "/Users/Bovverskin/WeMeet/app/controllers/events_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Bovverskin/WeMeet/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/Bovverskin/WeMeet/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
       "/Users/Bovverskin/WeMeet/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -13,14 +27,6 @@
         0
       ],
       "/Users/Bovverskin/WeMeet/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/Users/Bovverskin/WeMeet/app/controllers/application_controller.rb": [
-        0,
-        0
-      ],
-      "/Users/Bovverskin/WeMeet/app/helpers/application_helper.rb": [
         0,
         0
       ],
@@ -37,6 +43,6 @@
         0
       ]
     },
-    "timestamp": 1548598484
+    "timestamp": 1548598961
   }
 }
