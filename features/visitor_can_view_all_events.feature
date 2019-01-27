@@ -5,10 +5,12 @@ Feature: Visitor can view all events
     I would like to be presented with some cool events listed on a page
 
     Scenario: Visitor can see events on index page
-        Given the following events exists
+    
+        Given the following events exist
             |       title          |            content                             |
             | Coffee n Code        | Anyone interested is welcome to join           |
             | CA Graduation party  | Build awesome rails applications and get drunk |
+
         When I visit the landing page
         Then I should see 'Coffee n Code'
         And I should see 'Anyone interested is welcome to join'
