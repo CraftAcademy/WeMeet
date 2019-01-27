@@ -4,7 +4,7 @@ end
 
 Given("the following events exists") do |table|
     table.hashes.each do |event|
-        Event.create!(event)
+        FactoryBot.create(:event, event)
     end
 end
   
