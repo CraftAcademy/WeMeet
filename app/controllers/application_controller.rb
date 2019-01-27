@@ -5,5 +5,4 @@ class ApplicationController < ActionController::Base
     attributes = [:first_name, :last_name]
     devise_parameter_sanitizer.permit(:sign_up, keys: attributes)
   end
-  
 end

@@ -1,5 +1,5 @@
 %h2 Sign up
-= form_with model: @user do |f|
+= form_with model: @user, url: user_registration_path do |f|
   = devise_error_messages!
   .field
     = f.label :first_name
@@ -25,5 +25,5 @@
     %br/
     = f.password_field :password_confirmation, autocomplete: "new-password"
   .actions
-    = f.submit "Sign up"
+    = f.submit "Submit"
 = render "devise/shared/links"
