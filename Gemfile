@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'haml-rails'
+gem 'devise'
 
 group :development, :test do
   gem 'factory_bot_rails'
@@ -22,6 +23,8 @@ group :development, :test do
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
   gem 'coveralls', require: false
+  gem 'launchy', '~> 2.4', '>= 2.4.3'
+  gem 'faker', '~> 1.9', '>= 1.9.1'
 end
 
 group :development do

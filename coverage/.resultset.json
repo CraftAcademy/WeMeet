@@ -1,42 +1,64 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/Users/Bovverskin/WeMeet/app/mailers/application_mailer.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        8,
+        8,
+        null,
+        null
+      ],
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/Bovverskin/WeMeet/app/models/application_record.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/models/application_record.rb": [
         0,
         0,
         0
       ],
-      "/Users/Bovverskin/WeMeet/app/jobs/application_job.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/models/user.rb": [
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
         0,
         0
       ],
-      "/Users/Bovverskin/WeMeet/app/controllers/application_controller.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/jobs/application_job.rb": [
         0,
         0
       ],
-      "/Users/Bovverskin/WeMeet/app/helpers/application_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/Bovverskin/WeMeet/app/channels/application_cable/connection.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/Bovverskin/WeMeet/app/channels/application_cable/channel.rb": [
+      "/Users/Camron/Desktop/Craft Academy/rails/WeMeet/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1548587617
+    "timestamp": 1548611527
   }
 }
